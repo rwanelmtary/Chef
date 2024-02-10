@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MealPlanner</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="MealPlanner">Meal Planner</string>
+    <string name="favourite">Favourite</string>
+    <string name="plan">My Plan</string>
+    <string name="ramove">Remove</string>
+    <string name="move">move\n</string>
+    <string name="home">home\n</string>
+    <string name="search">search\n</string>
+    <string name="meal">meal\n</string>
+    <string name="area">Area\n</string>
+    <string name="instructions">Instructions</string>
+    <string name="save">Save</string>
+</resources>

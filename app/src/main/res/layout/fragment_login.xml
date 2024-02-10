@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE6D0"
+    tools:context=".Auth.login.view.LoginFragment">
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="304dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="184dp"
+        android:backgroundTint="#BDAB80"
+        android:text="Log in"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textpass"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textpass"
+        app:layout_constraintVertical_bias="0.784" />
+
+    <EditText
+    android:id="@+id/logtext"
+    android:layout_width="299dp"
+    android:layout_height="53dp"
+    android:layout_marginTop="248dp"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/textpass"
+        android:layout_width="299dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@+id/logtext"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/logtext"
+        app:layout_constraintTop_toBottomOf="@+id/logtext" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="240dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="52dp"
+        android:fontFamily="cursive"
+        android:gravity="center"
+        android:text="@string/MealPlanner"
+        android:textColor="#9F7365"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
